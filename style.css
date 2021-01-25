@@ -1,25 +1,3 @@
-#welcome {
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color: aqua;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    opacity: 0.83;
-    background: linear-gradient(#f0fc03 0%, #cafc03 100%);
-    display: table;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-}
-
-body {
-    margin: 0;
-   padding: 800px;
-}
-
 .profile {
     width: 175px;
     margin-bottom: 50px;
@@ -99,6 +77,12 @@ p {
 }
 .link:hover{
     background-color: blue;
+}
+
+body{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
 }
 html{
     scroll-behavior: smooth;
